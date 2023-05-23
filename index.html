@@ -1,31 +1,184 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Juice Shop</title>
-</head>
-<body>
-    <header>
-        <div class="vertical-center">
-            <h1>Welcome to The Juice Hub!</h1>
-            <p>Sip the Future of Wellness.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="juice shop, juice, free wifi, cork">
+        <meta name="author" content="The Juice Hub">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Juice Shop</title>
+    </head>
+    <body>
+        <header class="text-center welcome-banner" id="banner">
+            <div class="vertical-center">
+                <h1>Welcome to The Juice Hub!</h1>
+                <p>Sip the Future of Wellness</p>
+            </div>
+        </header>
+
+        <!-- nav bar options -->
+        <nav class="orange-background text-center text-uppercase">
+            <a href="#home" arial-label="Go to the top of the page">Home</a>
+            <a href="#menu"arial-label="Go to menu section">Menu</a>
+            <a href="#contact"arial-label="Go to contact section">Contact</a>
+            <a href="form.html"arial-label="complete the form for a chance to win a Smoothie Bowl Kit">Win a Smoothie Bowl Kit</a>
+        </nav>
+
+        <!-- Benefits of drinking fresh juice -->
+        <section>
+            <div class="benefit-column text-center text-white float-left">
+                <div class="text-white benefit-box">
+                    <h2>Benefits of Drinking Fresh Juice</h2>
+                    <ol class="nutrient nutrient-icon">
+                        <li><i class="fas fa-check"></i>Nutrient packed</li>
+                        <br>
+                        <li><i class="fas fa-check"></i>Variety of flavours</li>
+                        <br>
+                        <li><i class="fas fa-check"></i>Convenient and portable</li>
+                        <br>
+                        <li><i class="fas fa-check"></i>Pre & Pro workout booster</li>
+                        <br>
+                        <li><i class="fas fa-check"></i>A way to stay hydrated</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="two-thirds-width-column float-right">
+                <img src="/assets/images/juicemenu.jpg" alt="a table with three glasses of juice" width="400"> </div>
+            <div class="spacer"></div>
+        </section>
+
+        <!-- Menu section -->
+        <section id="menu" class="text-center text-white">
+        <h1 class="drink-option">Menu</h1>
+        
+        <!--Part 1 of menu-->
+        <div id="fresh-juice-box" class="menu-box float-left border-radius">
+        <h3>Fresh Juice</h3>
+        <ul>
+            <li>Watermelon & Ginger</li>
+            <li>Super Green</li>
+            <li>Lemon & Orange </li>
+            <li>Pure Orange</li>
+            <li>Apricot</li>
+            <li>Orange & Strawberry</li>
+        </ul>
         </div>
-    </header>
+       
+        <!--Part 2 of menu-->
+        <div id="smoothie-box" class="menu-box border-radius">
+        <h3>Smoothie</h3>
+        <ul>
+            <li>Strawberry & Banana</li>
+            <li>Mango</li>
+            <li>Guava</li>
+            <li>Blueberries</li>
+            <li>Avocado</li>
+        </ul>
+        </div>
 
-    <nav class="black-background text-center text-uppercase">
-		<a href="#home">Home</a>
-		<a href="#menu">Menu</a>
-		<a href="#contact">Contact</a>
-		<a href="form.html">Win Free E-book</a>
-    </nav>
+        <!--Part 3 of menu-->
+        <div id="other-drinks-box" class="menu-box float-right border-radius">
+            <h3>Pre&Pro Workout Boost</h3>
+            <ul>
+                <li>Coconut Water</li>
+                <li>Apple</li>
+                <li>Beetroot</li>
+                <li>Cucumber</li>
+                <li>Protein Smoothie</li>
+            </ul>
+        </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
+    </section>
+    
+    <!--Contact Information-->
+    <section id="contactinfo">
+        <h2 class="text-center">Contact</h2>
+        <div class="contact-info-boxes">
+            <div class="contact-info-left medium-size-menu">
+                <h3 class="text-center">Open times</h3>
+
+                <table class="text-center">
+                <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>	
+                </tr>
+                <tr>
+                    <td>Mon - Fri</td>
+                    <td>09:00</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>Weekend</td>
+                    <td>10:00</td>
+                    <td>19:00</td>
+                </tr>	
+                </table>
+            </div>
+            <div class="text-right contact-info-right medium-size-menu">
+                <h3>Get in touch</h3>
+
+                <div>
+                <span class="bold">Phone: </span>
+                <span>025 94271</span>
+                </div>
+                <div>
+                <span class="bold">Email: </span>
+                <span>email@thejuicehub.com</span>
+                </div>
+            </div>
+            <div class="contact-box-center medium-size-menu">
+                <h3>Address</h3>
+                <span>The Juice Hub,<br>English Market, Grand Parade<br>Cork</span>
+            </div>
+        </div>
+
+        <!--send us a message-->
+        <form action="" method="POST">
+            <fieldset>
+                <legend> <i class="fas fa-envelope"></i> Send us a message</legend>
+                <div class="container">
+                    <div class="float-left input-form">
+                        <label for="name-field" class="block-label">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Name">
+                    </div>
+                    <div class="float-left input-form">
+                        <label for="email-field" class="block-label">Email</label>
+                        <input id="email-field" type="email" name="email" placeholder="example@email.com">
+                    </div>
+                    <div class="float-left input-form">
+                        <label for="message-field" class="block-label">Message</label>
+                        <textarea id="message-field" rows="4" cols="74" name="message-field" required></textarea>
+                    </div>
+                    <button class="message-button">
+                            <i class="fas fa-paper-plane"></i> Send
+                    </button>
+                </div>
+            </fieldset>
+    </section>
+
+
+    <section id="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.9126149758514!2d-8.475779894109058!3d51.8980942230597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844903d38df44b7%3A0x8e3f151ed5594300!2sThe%20English%20Market!5e0!3m2!1sen!2sie!4v1684838558401!5m2!1sen!2sie" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+<!--footer details-->
+        <footer>
+
+            <span>Find us on:</span>
+
+            <a class="icon" href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"><i class="fab fa-facebook-square"></i>Facebook</a>
+            <a class="icon" href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)"><i class="fab fa-instagram"></i>Instagram</a>
+
+            <p>Copyright © The Juice Hub 2023</p>
+        
+        </footer>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    </body>
 </html>
