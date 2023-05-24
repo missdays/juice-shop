@@ -1,6 +1,6 @@
 # **THE JUICE HUB** <br>
 
-[view the live project here] (LINK)
+[View the live project here](https://missdays.github.io/juice-shop/index.html#home)
 
 <br> 
 
@@ -88,7 +88,7 @@
 * From the source section drop-down menu, select the Master Branch,
 * Once the Master Branch has beeen selected, the page provided the link to the completed website.
 
-[view the live project here] (LINK)
+[View the live project here](https://missdays.github.io/juice-shop/index.html#home)
 
 ## Credits
 ### Content
