@@ -1,11 +1,11 @@
 # **THE JUICE HUB** <br>
-## The Juice Hub is a website that showcase my juice shop's menu and services. It provides detailed information of types of juices and other drinks available, why they are beneficial and a special smoothie prize. <br>
+## The Juice Hub is a website that showcase my juice shop's menu and services. It provides detailed information of types of juices and other drinks available, why they are beneficial and a special smoothie bowl kit prize. <br>
 
 <br>![A mockup image of The Juice Hub website containing an ipad with the Survey page, an iphone displaying Contact Information, a screen showing "Home" and a laptop showcasing the Benefits of Drinking Fresh Juice](assets/images/PP1mockupimage.jpg)
 <br> 
 ### The Juice Hub website target demographic is anyone who prioritises their health, well-being and nutrition. This may include individuals who are fitness enthusiast, those with restricted diets, for example, celiacs or lactose intolerants, as well as those who are looking to incorporate more fruits and vegetables in their day to day diet. <br>
 
-### The website will be useful to the audience as they can see the menu option which will enhance their experience and complete the survey to win a Smoothie Bowl Kit prize. The transparency will build trust with customers who value transparency and quality. <br>
+### The green and orange colour palettes were purposely chosen to evoke feelings of excitement and enthusiasm and create a sense of wellness and health. Orange is associated with warmth, happiness, and creativity, while green is linked to harmony, freshness, and balance. Together, they can create a visually appealing and positive atmosphere that reflects the overall look of a juice shop, making customers feel welcome and inspired. <br>
 ## Features <br>
 
 1. **NAVIGATION BAR** 
