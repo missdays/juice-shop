@@ -1,4 +1,6 @@
 # **THE JUICE HUB** <br>
+
+[view the live project here] (LINK)
 ## The Juice Hub is a website that showcase my juice shop's menu and services. It provides detailed information of types of juices and other drinks available, why they are beneficial and a special smoothie bowl kit prize. <br>
 
 <br>![A mockup image of The Juice Hub website containing an ipad with the Survey page, an iphone displaying Contact Information, a screen showing "Home" and a laptop showcasing the Benefits of Drinking Fresh Juice](assets/images/PP1mockupimage.jpg)
@@ -44,6 +46,45 @@
 
 7. **FOOTER**
 
-* The footer has our social media links to encourage customers to explore and connect with our shop on various digital channels such as Facebook and Instagram. By clicking on the social media links in the footer, customers can follow our shop's updates, promotions, and special offers on different platforms. <br>
+* The footer has our social media links, that when clicked it opens on a different tab. It encourages customers to explore and connect with our shop on various digital channels such as Facebook and Instagram. By clicking on the social media links in the footer, customers can follow our shop's updates, promotions, and special offers on different platforms. <br>
 
 ![Contact Information Image](assets/images/footer-img.jpg)
+
+8. **FORM**
+
+* This section has a form to collect details of anyone participating on the 
+
+## Testing
+* I tested that this page works in different browsers: Chrome, Firefox, Safari. <br>
+* I confirm that this website is funcional and responsive. <br>
+* I confirm that the form is functional, all entries work as well as the buttons. <br>
+
+### Bugs 
+1. Solved Bugs
+* When I deployed my project to GitHub I discovered my project was not going through as the branches were diverging.
+* I corrected the problem by going to git terminal and doing a "git pull" request and "git commit -m 'merge'" and "git push".
+* Fixed the problem <br>
+
+### Validator Testing 
+* HTML: No errors were returned when passing through the official W3C validator
+* CSS: No errors were returned when passing through the official (Jigsaw) validator
+* Accessibility: I confirm that the colours and fonts chosen are accessible for running it through lighthouse in devtools. <br>
+![Accessibility score image](assets/images/accessibility-score.jpg)
+
+### Unfixed Bugs 
+* No unfixed bugs
+
+## Deployment 
+1. The website was deployed to GitHub pages. The steps to deploy are as follows: 
+* In the GitHub repo, navigate to the Settings tab,
+* From the source section drop-down menu, select the Master Branch,
+* Once the Master Branch has beeen selected, the page provided the link to the completed website.
+
+## Credits
+### Content
+* The juice shop idea was an inspiration on a 21 days vegan and juicing challenge from a website called fullyraw.com
+* The website layout was inspired on the CI Coders Coffeehouse Project as The Juice Hub is also a drink shop.
+* The footer code was taken from the CI Coders Coffeehouse Project.
+
+### Media
+* The images in the header, background and form/survey header were taken from pexel. 
