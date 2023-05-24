@@ -98,3 +98,7 @@
 
 ### Media
 * The images in the header, background and form/survey header were taken from pexel. 
+
+## Mockup 
+* This wireframe allowed me to establish a clear structure, layout and functionality for my website.
+![Accessibility score image](assets/images/wireframe-img.jpg)
