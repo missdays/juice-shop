@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@300&display=swap');
 
 body {
-	font-family: 'Dosis', Arial, sans-serif, cursive;
+	font-family: 'Dosis', Arial, sans-serif;
 	margin: 0;
 	background-color: #ffddb7;
 }
@@ -14,24 +14,18 @@ h1 {
 
 
 h2 {
-	font-size: xx-large;
+	font-size: x-large;
 }
 
 
 header {
-	color: #3f2d17;
+	color: black;
 }
 
 p {
 	font-size: x-large;
     
 }
-
-
-header {
-	backgroud-color: white;
-}
-
 
 #menu {
 	padding: 1rem 0;
@@ -186,7 +180,10 @@ border-radius: 8px;
 #contactinfo {
     margin-bottom: 50px;
 }
-
+/* overrides h2 css */
+#contact-h2-size {
+    font-size: xx-large
+}
 
 .contact-info-boxes {
     width: 66%;
@@ -409,7 +406,11 @@ label {
     height: 300px;
     margin-bottom: 107px;
 }
-
+iframe {
+    width: 100%;
+    border: 0;
+    height:300px;
+}
 
 #map {
     height: 100%;
