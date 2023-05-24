@@ -1,6 +1,9 @@
 # **THE JUICE HUB** <br>
 
 [view the live project here] (LINK)
+
+<br> 
+
 ## The Juice Hub is a website that showcase my juice shop's menu and services. It provides detailed information of types of juices and other drinks available, why they are beneficial and a special smoothie bowl kit prize. <br>
 
 <br>![A mockup image of The Juice Hub website containing an ipad with the Survey page, an iphone displaying Contact Information, a screen showing "Home" and a laptop showcasing the Benefits of Drinking Fresh Juice](assets/images/PP1mockupimage.jpg)
@@ -52,7 +55,11 @@
 
 8. **FORM**
 
-* This section has a form to collect details of anyone participating on the 
+* This section has a form to collect details of anyone participating on the chance to win a smoothie bowl kit
+* The form collects the person's details and it also has a feedback section for any comments.
+* By participating it creates a sense of excitement and anticipation among website visitors. <br>
+
+![Contact Information Image](assets/images/prize-form.jpg)
 
 ## Testing
 * I tested that this page works in different browsers: Chrome, Firefox, Safari. <br>
@@ -64,6 +71,7 @@
 * When I deployed my project to GitHub I discovered my project was not going through as the branches were diverging.
 * I corrected the problem by going to git terminal and doing a "git pull" request and "git commit -m 'merge'" and "git push".
 * Fixed the problem <br>
+* ![Bug Image](assets/images/bug-img.jpg)
 
 ### Validator Testing 
 * HTML: No errors were returned when passing through the official W3C validator
@@ -79,6 +87,8 @@
 * In the GitHub repo, navigate to the Settings tab,
 * From the source section drop-down menu, select the Master Branch,
 * Once the Master Branch has beeen selected, the page provided the link to the completed website.
+
+[view the live project here] (LINK)
 
 ## Credits
 ### Content
