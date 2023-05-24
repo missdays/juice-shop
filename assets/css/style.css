@@ -30,7 +30,7 @@ p {
 #menu {
 	padding: 1rem 0;
 	margin-bottom: 80px;
-	background: url('/assets/images/menu1.jpg') center center / cover no-repeat fixed;
+	background: url('/juice-shop/assets/images/menu1.jpg') center center / cover no-repeat fixed;
 }
 
 .text-white {
@@ -44,11 +44,11 @@ p {
 
 
 #banner {
-    background: url('/assets/images/juice.jpg') center center / cover no-repeat;
+    background: url('/juice-shop/assets/images/juice.jpg') center center / cover no-repeat;
 }
 
 #banner-form {
-    background: url('/assets/images/form-pic2.jpg')  center top / cover no-repeat;
+    background: url('/juice-shop/assets/images/form-pic2.jpg')  center top / cover no-repeat;
 }
 
 
