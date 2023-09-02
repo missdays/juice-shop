@@ -14,7 +14,7 @@ h1 {
 
 
 h2 {
-	font-size: x-large;
+	font-size: 3rem;
 }
 
 
@@ -44,11 +44,11 @@ p {
 
 
 #banner {
-    background: url('/juice-shop/assets/images/juice.jpg') center center / cover no-repeat;
+    background: url('/juice-shop/assets/images/juiceSub.jpg') center center / cover no-repeat;
 }
 
 #banner-form {
-    background: url('/juice-shop/assets/images/form-pic2.jpg')  center top / cover no-repeat;
+    background: url('/juice-shop/assets/images/form-pic2Sub.jpg')  center top / cover no-repeat;
 }
 
 
@@ -417,3 +417,50 @@ iframe {
     width: 100%;
     border: none;
 }
+
+@media only screen and (max-width: 1030px) {
+    
+    .two-thirds-width-column {
+        width: 100%;
+    }
+    .benefit-column{
+        width:100%;
+    }
+    .benefit-box{
+        position: static;
+        width:93%
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .menu-box {
+        width: 100%;
+    }
+    #fresh-juice-box{
+        position: static;
+    }
+    #smoothie-box{
+        position: static;
+    }
+    #other-drinks-box{
+        position: static;
+    }
+    form{
+        width: 90%;
+        padding:5px;
+    }
+    input[type=text], input[type=email], input[list=drinks] {
+        width: 96%;
+    }
+    #message-field{
+        width:100%;
+    }
+    #feedback{
+        width:100%;
+    }
+  }
