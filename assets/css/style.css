@@ -200,7 +200,7 @@ border-radius: 8px;
 .contact-info-left {
     width: 250px;
     margin-top: -20px;
-	float: left;
+	align-items: left;
 }
 
 
@@ -208,7 +208,7 @@ border-radius: 8px;
     width: 250px;
     text-align: right;
     margin-top: -20px;
-	float: right;
+	align-items: right;
 }
 
 .spacer {
@@ -356,8 +356,8 @@ legend {
 }
 
 
-.float-left {
-    float: left;
+.align-left {
+    align-items: left;
 }
 
 
@@ -382,8 +382,8 @@ legend {
 }
 
 
-.float-right {
-    float: right;
+.align-right {
+    align-items: right;
 }
 
 
