@@ -6,17 +6,14 @@ body {
 	background-color: #ffddb7;
 }
 
-
 h1 {
 	font-size: 4rem;
 	margin: 0;
 }
 
-
 h2 {
 	font-size: 3rem;
 }
-
 
 header {
 	color: black;
@@ -37,11 +34,9 @@ p {
 	color: #FFFFFF;
 }
 
-
 .orange-background {
     background-color: darkorange;
 }
-
 
 #banner {
     background: url('/juice-shop/assets/images/juiceSub.jpg') center center / cover no-repeat;
@@ -51,12 +46,10 @@ p {
     background: url('/juice-shop/assets/images/form-pic2Sub.jpg')  center top / cover no-repeat;
 }
 
-
 .welcome-banner {
 	height: 78vh;
 	background-position: center;
 }
-
 
 .text-center {
     text-align: center;
@@ -65,7 +58,6 @@ p {
 .text-right {
     text-align: right;
 }
-
 
 .text-uppercase {
     text-transform: uppercase;
@@ -89,7 +81,6 @@ li {
     list-style-type: none;
 }
 
-
 .bold {
 	font-weight: bold;
 }
@@ -100,17 +91,14 @@ img {
 	margin: 2%;
 }
 
-
 .drink-option{
     color: #3f2d17;
     
 }
 
-
 .border-radius {
-border-radius: 8px;
+    border-radius: 8px;
 }
-
 
 #fresh-juice-box {
 	background-color: #53643e;
@@ -118,7 +106,6 @@ border-radius: 8px;
     left: 70px;
     top: -15px;
 }
-
 
 #smoothie-box {
 	background-color: #ba1a1a;
@@ -137,6 +124,7 @@ border-radius: 8px;
     position: relative;
     top: 30%;
 }
+
 .nutrient {
     font-size: large;
 }
@@ -144,7 +132,6 @@ border-radius: 8px;
 .nutrient-icon i {
     margin-right: 8px;
 }
-
 
 .benefit-column {
     width: 33.33%;
@@ -157,7 +144,6 @@ border-radius: 8px;
     display: inline-block;
 }
 
-
 .benefit-box {
 	padding: 10px 5px 25px 5px;
 	border-radius: 8px;
@@ -169,7 +155,6 @@ border-radius: 8px;
     top: 30px;
 }
 
-
 .menu-box {
 	width: 33%;
 	margin: 1rem 0;
@@ -180,6 +165,7 @@ border-radius: 8px;
 #contactinfo {
     margin-bottom: 50px;
 }
+
 /* overrides h2 css */
 #contact-h2-size {
     font-size: xx-large
@@ -203,7 +189,6 @@ border-radius: 8px;
 	align-items: left;
 }
 
-
 .contact-info-right {
     width: 250px;
     text-align: right;
@@ -226,9 +211,7 @@ border-radius: 8px;
     font-size:large;
 }
 
-
-th,
-td {
+th, td {
     border-bottom: 1.5px solid #847469;
 }
 
@@ -241,16 +224,13 @@ ul {
     margin-top: 5%;
 }
 
-
 .icon {
     font-size:large;
 }
 
-
 .icon i {
-      margin-right: 7px;
-    }
-
+    margin-right: 7px;
+}
 
 footer {
 	background-color: #626200;
@@ -266,7 +246,6 @@ footer {
 footer > span {
 	color: #e6e3d1;
 }
-
 
 footer > a {
 	color: #e6e3d1;
@@ -285,12 +264,10 @@ fieldset {
 	margin-top: 20px;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
 }
-
 
 input[type=submit] {
 	margin-top: 20px;
@@ -312,7 +289,6 @@ input[type=reset] {
     border: 1px solid #5e361b;
     border-radius: 5px;
 }
-	
 
 input[type=text],
 input[type=email],
@@ -327,7 +303,6 @@ input[list=drinks] {
 input[list=drinks] {
     width: 45%;
 }
-
 
 select {
     height: 36px;
@@ -347,7 +322,6 @@ form {
 	display: block;
 }
 
-
 legend {
 	font-size: large;
 	font-weight: 600;
@@ -355,16 +329,13 @@ legend {
 	margin: 20px 0 10px 0;
 }
 
-
 .align-left {
     align-items: left;
 }
 
-
 .input-form{
     padding-right: 10px;
 }
-
 
 .message-button{
     width: 100px;
@@ -381,21 +352,17 @@ legend {
     display: flex;
 }
 
-
 .align-right {
     align-items: right;
 }
-
 
 label {
     margin: 10px 15px 5px 0;
 }
 
-
 .checkboxes-box div {
     margin-top: 15px;
 }
-
 
 #nutrient li {
     margin-top: 5%;
@@ -406,6 +373,7 @@ label {
     height: 300px;
     margin-bottom: 107px;
 }
+
 iframe {
     width: 100%;
     border: 0;
@@ -423,13 +391,16 @@ iframe {
     .two-thirds-width-column {
         width: 100%;
     }
+
     .benefit-column{
         width:100%;
     }
+
     .benefit-box{
         position: static;
         width:93%
     }
+
     #menu{
         display: flex;
         flex-direction: column;
@@ -438,31 +409,40 @@ iframe {
         padding-left: 10px;
         padding-right:10px;
     }
+
     .menu-box {
         width: 100%;
     }
+
     #fresh-juice-box{
         position: static;
     }
+
     #smoothie-box{
         position: static;
     }
+
     #other-drinks-box{
         position: static;
     }
+
     form{
         width: 90%;
         padding:5px;
     }
+
     input[type=text], input[type=email], input[list=drinks] {
         width: 96%;
     }
+
     .birth-date{
         display: block;
     }
+
     #message-field{
         width:100%;
     }
+    
     #feedback{
         width:100%;
     }
