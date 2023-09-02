@@ -457,6 +457,9 @@ iframe {
     input[type=text], input[type=email], input[list=drinks] {
         width: 96%;
     }
+    .birth-date{
+        display: block;
+    }
     #message-field{
         width:100%;
     }
