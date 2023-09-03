@@ -71,18 +71,27 @@
 ### Validator Testing 
 * HTML: No errors were returned when passing through the official W3C validator
 * CSS: No errors were returned when passing through the official (Jigsaw) validator
-* Accessibility: I confirm that the colours and fonts chosen are accessible for running it through lighthouse in devtools. <br>
-![Accessibility score image](assets/images/accessibility-scoreSub.png)
+<br>
+
+![Form Validator image](assets/images/form-validator.png)
+
+![Index Validar image](assets/images/index-validator.png)
 
 ### Testing
 * Tested on my own computer 
 * Tested on developer tool (lighthouse report)
 * Tested dimensions on different screen devices
+* Accessibility: I confirm that the colours and fonts chosen are accessible for running it through lighthouse in devtools. <br>
+![Accessibility score image](assets/images/accessibility-scoreSub.png)
 
 ### Fixed Bugs 
 * Changed low background contrast to better images
 * Added media queries (min-width) to create a responsive website
 * Fixed contact button, now working when clicked 
+
+### Future Features
+- 404.html page for defensive design
+- Fix warnings found in form page validation
 
 ## Deployment 
 1. The website was deployed to GitHub pages. The steps to deploy are as follows: 
