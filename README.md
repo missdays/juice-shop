@@ -75,7 +75,9 @@
 
 ![Form Validator image](assets/images/form-validator.png)
 
-![Index Validar image](assets/images/index-validator.png)
+![Index Validator image](assets/images/index-validator.png)
+
+![Css Validator image](assets/images/css.png)
 
 ### Testing
 * Tested on my own computer 
