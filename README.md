@@ -90,7 +90,7 @@
 * From the source section drop-down menu, select the Master Branch,
 * Once the Master Branch has beeen selected, the page provided the link to the completed website.
 
-[View the live project here](https://missdays.github.io/juice-shop/index.html#home)
+[View the live project here](https://missdays.github.io/juice-shop/index.html)
 
 ## Credits
 ### Content
