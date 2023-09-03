@@ -21,7 +21,6 @@ header {
 
 p {
 	font-size: x-large;
-    
 }
 
 #menu {
@@ -125,34 +124,9 @@ img {
     top: 30%;
 }
 
-.nutrient {
-    font-size: large;
-}
-
-.nutrient-icon i {
-    margin-right: 8px;
-}
-
-.benefit-column {
-    width: 33.33%;
-    display: inline-block;
-}
-
-
 .two-thirds-width-column {
     width: 66.66%;
     display: inline-block;
-}
-
-.benefit-box {
-	padding: 10px 5px 25px 5px;
-	border-radius: 8px;
-	width: 100%;
-	margin: 2%;
-	background-color: chocolate;
-    position: relative;
-    left: 20%;
-    top: 30px;
 }
 
 .menu-box {
@@ -194,10 +168,6 @@ img {
     text-align: right;
     margin-top: -20px;
 	align-items: right;
-}
-
-.spacer {
-    clear: both;
 }
 
 .contact-box-center {
@@ -280,7 +250,6 @@ input[type=submit] {
 }
 
 input[type=reset] {
-
 	margin-top: 20px;
     margin-left: 0.75rem;
     padding: 0.75rem;
@@ -290,6 +259,7 @@ input[type=reset] {
     border-radius: 5px;
 }
 
+/* default proporties for the following inputs */
 input[type=text],
 input[type=email],
 input[list=drinks] {
@@ -364,10 +334,6 @@ label {
     margin-top: 15px;
 }
 
-#nutrient li {
-    margin-top: 5%;
-}
-
 /*MAP*/
 #map-wrapper {
     height: 300px;
@@ -386,19 +352,11 @@ iframe {
     border: none;
 }
 
+/* media queries to create a responsive website */
 @media only screen and (max-width: 1030px) {
     
     .two-thirds-width-column {
         width: 100%;
-    }
-
-    .benefit-column{
-        width:100%;
-    }
-
-    .benefit-box{
-        position: static;
-        width:93%
     }
 
     #menu{
