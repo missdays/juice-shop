@@ -160,14 +160,14 @@ img {
 .contact-info-left {
     width: 250px;
     margin-top: -20px;
-	align-items: left;
+	align-items: start;
 }
 
 .contact-info-right {
     width: 250px;
     text-align: right;
     margin-top: -20px;
-	align-items: right;
+	align-items: end;
 }
 
 .contact-box-center {
@@ -300,7 +300,7 @@ legend {
 }
 
 .align-left {
-    align-items: left;
+    align-items: start;
 }
 
 .input-form{
@@ -323,7 +323,7 @@ legend {
 }
 
 .align-right {
-    align-items: right;
+    align-items: end;
 }
 
 label {
